@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2013 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <string name="app_name">" Test Learning Braille"</string>
+    <string name="intro_message">Message</string>
+    <string name="selected_language">English</string>
+    <string name="language">En, Test Learning Braille</string>
+
+    <string name="reply_label">Reply</string>
+    <string name="reply_name">Me</string>
+
+
+    <string name="title_activity_big_text_main">BigTextStyle Main Activity</string>
+    <string name="title_activity_big_picture_main">BigPictureStyle Main Activity</string>
+    <string name="title_activity_inbox_main">InboxStyle Main Activity</string>
+    <string name="title_activity_messaging_main">MessagingStyle Main Activity</string>
+
+    <string name="main_text_activity_big_text_main">
+        This Activity would handle the reminder app\'s functionality.
+        \n\nThe notification type for this example was the Big Text Style!
+    </string>
+    <string name="main_text_activity_big_picture_main">
+        This Activity would handle the social app\'s functionality for an individual post.
+        \n\nThe notification type for this example was the Big Picture Style!
+    </string>
+    <string name="main_text_activity_inbox_main">
+        This Activity would handle the email app\'s functionality for an email(s).
+        \n\nThe notification type for this example was the Inbox Style!
+    </string>
+    <string name="main_text_activity_messaging_main">
+        This Activity would handle the messaging app\'s functionality for a chat(s).
+        \n\nThe notification type for this example was the Messaging Style!
+    </string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="title_activity_lamina_ae">Selected Test Sheet</string>
+
+    <string name="Symbol_A">Letter_A</string>
+    <string name="Symbol_B">Letter_B</string>
+    <string name="Symbol_C">Letter_C</string>
+    <string name="Symbol_D">Letter_D</string>
+    <string name="Symbol_E">Letter_E</string>
+    <string name="Symbol_F">Letter_F</string>
+    <string name="Symbol_G">Letter_G</string>
+    <string name="Symbol_H">Letter_H</string>
+    <string name="Symbol_I">Letter_I</string>
+    <string name="Symbol_J">Letter_J</string>
+    <string name="Symbol_K">Letter_K</string>
+    <string name="Symbol_L">Letter_L</string>
+    <string name="Symbol_M">Letter_M</string>
+    <string name="Symbol_N">Letter_N</string>
+    <string name="Symbol_O">Letter_O</string>
+    <string name="Symbol_P">Letter_P</string>
+    <string name="Symbol_Q">Letter_Q</string>
+    <string name="Symbol_R">Letter_R</string>
+    <string name="Symbol_S">Letter_S</string>
+    <string name="Symbol_T">Letter_T</string>
+    <string name="Symbol_U">Letter_U</string>
+    <string name="Symbol_V">Letter_V</string>
+    <string name="Symbol_W">Letter_W</string>
+    <string name="Symbol_X">Letter_X</string>
+    <string name="Symbol_Y">Letter_Y</string>
+    <string name="Symbol_Z">Letter_Z</string>
+
+    <string name="Symbol_0">Number_0</string>
+    <string name="Symbol_1">Number_1</string>
+    <string name="Symbol_2">Number_2</string>
+    <string name="Symbol_3">Number_3</string>
+    <string name="Symbol_4">Number_4</string>
+    <string name="Symbol_5">Number_5</string>
+    <string name="Symbol_6">Number_6</string>
+    <string name="Symbol_7">Number_7</string>
+    <string name="Symbol_8">Number_8</string>
+    <string name="Symbol_9">Number_9</string>
+    <string name="Symbol_Ñ">Letter_Ñ</string>
+    <string name="Sheet_AE">Symbols A, B, C, D, E</string>
+    <string name="Sheet_FJ">Symbols  F, G, H, I, J</string>
+    <string name="Sheet_KO">Symbols K, L, M, N, O</string>
+    <string name="Sheet_PT">Symbols P, Q, R, S, T</string>
+    <string name="Sheet_UZ">Symbols U, V, X, Y, Z</string>
+    <string name="Sheet_stressed_vowels">Stressed vowels</string>
+    <string name="Sheet_PS">Symbols Ñ,W,Ü,´.´,´,´</string>
+    <string name="Sheet_04">Symbols from 0 to 4</string>
+    <string name="Sheet_59">Symbols from 5 to 9</string>
+    <string name="Sheet_Punctuation_Symbol">Symbols Ñ, W, Ü, ´.´ , ´,´</string>
+    <string name="Time_test_learning">Time test learning braille symbols</string>
+    <string name="Symbol_Ü">Letter Ü</string>
+    <string name="Symbol_.">Symbol .</string>
+    <string name="Symbol_comma">Symbol ,</string>
+    <string name="Selected_Sheet">Selected symbols sheet</string>
+    <string name="Test_Control">Control Test</string>
+    <string name="Test_Experimen_Onom">" Experiment test - Onomatopoeic vibration patterns"</string>
+    <string name="Test_Experiment_Numb">" Experiment test - Numbers list  vibrations patterns"</string>
+    <string name="Check_Mode">Check mode</string>
+    <string name="Working_Mode">Working mode</string>
+    <string name="Active_line">Active line</string>
+    <string name="Experiment_setup">Experiment setup</string>
+
+
+</resources>
