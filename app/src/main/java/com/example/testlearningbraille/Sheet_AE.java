@@ -171,6 +171,7 @@ public class Sheet_AE extends AppCompatActivity {
                                 secondLeft = 0;
                                 On = false;
                                 Activ_test = false;
+                                textView2.setText("Fin del test");
                                 Sound(36);
 
                             }else {
@@ -477,7 +478,7 @@ public class Sheet_AE extends AppCompatActivity {
                         textView.setText("" + secondLeft);
                         if ((secondLeft < 1) & On) {
 
-                            textView2.setText("Fin del test");
+                         //   textView2.setText("Fin del test");
                             if (Sc < 5 & (Status_test == 1|Status_test == 3|Status_test == 5|Status_test == 7|Status_test == 9))
                             {
                                 //  WriteFileTest File = new WriteFileTest();
@@ -1194,6 +1195,7 @@ public class Sheet_AE extends AppCompatActivity {
         Start_test.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View view) {
+
                         switch (Status_test) {
 
 

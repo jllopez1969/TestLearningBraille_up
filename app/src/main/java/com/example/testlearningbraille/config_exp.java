@@ -22,16 +22,23 @@ public class config_exp extends AppCompatActivity {
         finish();
 
     } */
+
+    //************************************
+    // Control Writing into file *.csv
+    //********************************************
+    String file_out ="";
+    String path_braille = "Braille";
+
     int selected_test = 0;
     int Status_test = 0;
     int test_line =0;
-    String file_out;
+  //  String file_out;
     String Selected_test;
 
     private TextView textView_file1;
     private TextView textView_file2;
 
-    String path_braille = "Braille";
+
 
 
 
@@ -134,9 +141,9 @@ public class config_exp extends AppCompatActivity {
 
 
 
-                        Status_test = 0;
-                        test_line=0;
-                        file_out = edit_file.getText().toString() +Selected_test ; // Add test name
+                      //  Status_test = 0;
+                       // test_line=0;
+                        file_out = edit_file.getText().toString() + Selected_test ; // Add test name
 
 
                         // Create file *.csv

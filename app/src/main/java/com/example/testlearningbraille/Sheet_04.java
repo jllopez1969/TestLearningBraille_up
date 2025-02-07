@@ -379,7 +379,7 @@ public class Sheet_04 extends AppCompatActivity {
         mBuilder.setContentText(Text2);
         mBuilder.setVibrate(pattern);
         mBuilder.setAutoCancel(true);
-        mNotifyMgr.notify(1, mBuilder.build());
+        mNotifyMgr.notify(1,  mBuilder.build());
 
     }
 
@@ -389,6 +389,7 @@ public class Sheet_04 extends AppCompatActivity {
     //******************************************************************
 
     // Control timer
+
     boolean On = false;
     int secondLeft = 0;
     boolean Activ_test = false;
