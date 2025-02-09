@@ -16,7 +16,7 @@ public class WriteFileTest {
       public void Create_path_and_file(Context context, String path, String name_file )
       {
           //Path
-        File dir = new File( Environment.getExternalStorageDirectory() + "/" + path);
+        File dir = new File(  "/storage/emulated/0/" + "/" + path);
         if (!dir.exists()) {
             dir.mkdirs();
             if (dir.exists()) {
