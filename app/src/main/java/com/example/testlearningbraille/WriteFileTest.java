@@ -18,12 +18,15 @@ public class WriteFileTest {
           //Path
         File dir = new File( Environment.getExternalStorageDirectory() + "/" + path);
         if (!dir.exists()) {
-            dir.mkdir();
-            if (!dir.exists()) {
+            dir.mkdirs();
+            if (dir.exists()) {
                 Toast.makeText(context, "Now, directory created", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(context, "Previously created, directory", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "Not created directory", Toast.LENGTH_LONG).show();
             }
+        }else
+        {
+            Toast.makeText(context, "It has created directory", Toast.LENGTH_LONG).show();
         }
 
           // File
