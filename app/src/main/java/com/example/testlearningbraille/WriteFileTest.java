@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Environment;
 import android.widget.Toast;
 
+import androidx.core.os.EnvironmentCompat;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -16,9 +18,11 @@ public class WriteFileTest {
       public void Create_path_and_file(Context context, String path, String name_file )
       {
           //Path
-        File dir = new File(  "/storage/emulated/0/" + "/" + path);
-        if (!dir.exists()) {
-            dir.mkdirs();
+   //     //File dir = new File(     Environment.getExternalStorageDirectory() + "/" + path);
+          File dir = new File(Environment.getExternalStorageDirectory() + "/" + path);
+
+          if (!dir.exists()) {
+            dir.mkdir();
             if (dir.exists()) {
                 Toast.makeText(context, "Now, directory created", Toast.LENGTH_SHORT).show();
             } else {
@@ -26,7 +30,7 @@ public class WriteFileTest {
             }
         }else
         {
-            Toast.makeText(context, "It has created directory", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "It has been created directory", Toast.LENGTH_LONG).show();
         }
 
           // File
