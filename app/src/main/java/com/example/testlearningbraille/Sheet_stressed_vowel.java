@@ -1659,7 +1659,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                         Symbol_oo = false;
                                         Symbol_uu = false;
                                         count = 0;
-                                        if (Symbol_ee) {
+                                        if (Symbol_aa) {
                                             Sound(11);
                                         }
                                     }
@@ -1675,7 +1675,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                         Symbol_oo = false;
                                         Symbol_uu = false;
                                         count = 0;
-                                        if (Symbol_ee) {
+                                        if (Symbol_aa) {
                                             Sound(1);
                                         }
                                     }
@@ -1693,7 +1693,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                         Symbol_oo = false;
                                         Symbol_uu = false;
                                         count = 0;
-                                        if (Symbol_ee) {
+                                        if (Symbol_aa) {
                                             Sound(40);
                                         }
                                     }
