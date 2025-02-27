@@ -1363,6 +1363,7 @@ public class Sheet_FJ extends AppCompatActivity {
                                 secondLeft = Time_slot;
                                 Start_test.setEnabled(false);
                                 Stop_test.setVisibility(View.VISIBLE);
+                                Stop_test.setEnabled(true);
 
                                 button40.setVisibility(View.VISIBLE);
                                 button41.setVisibility(View.VISIBLE);
