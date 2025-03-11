@@ -1,7 +1,6 @@
 package com.example.testlearningbraille;
 
 public class voice extends Thread {
-
     public boolean stop = false;
 
     public void run() {

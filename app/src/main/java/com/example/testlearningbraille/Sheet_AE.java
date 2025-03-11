@@ -42,7 +42,6 @@ public class Sheet_AE extends AppCompatActivity {
     //*******************************
     // Double Click Control
     //*********************************************
-
     long mLastTime=System.currentTimeMillis();
     long mCurTime=System.currentTimeMillis();
     boolean flag_db = false;
@@ -53,8 +52,6 @@ public class Sheet_AE extends AppCompatActivity {
     //********************************************
     String file_out ="";
     String path_braille = "Braille";
-
-
 
     // Test control variables
     boolean flag_sel = false;
@@ -85,13 +82,8 @@ public class Sheet_AE extends AppCompatActivity {
         }
     }
 
-
-
-
     // Double click on training line
-
     public boolean Double_Click(char character){
-
         // Disable Response
         boolean disable_button_resc= false;
 
@@ -104,7 +96,7 @@ public class Sheet_AE extends AppCompatActivity {
             flag_db = false;
 
             // Active line test
-            if ((Status_test == 1) | (Status_test == 3) | (Status_test == 5) | (Status_test == 7) | (Status_test == 9))
+            if ((Status_test == 1) || (Status_test == 3) || (Status_test == 5) || (Status_test == 7) || (Status_test == 9))
             {
                 // Selected symbol on active test line
                 if (flag_sel & flag_elec) {
@@ -117,7 +109,6 @@ public class Sheet_AE extends AppCompatActivity {
                         flag_ok = true;
                         Sound(20);
                         disable_button_resc= true;
-
                     } else {
                         Er++;
                         flag_ok = false;
@@ -126,10 +117,8 @@ public class Sheet_AE extends AppCompatActivity {
                     //  Cases
                     WriteFileTest File = new WriteFileTest();
                     switch (Sc + Er) {
-
                         case 1:
                             if (flag_ok) {
-
                                 File.Write_Text_File( Sheet_AE.this,path_braille,file_out, Symbol + ";" );  // Éxito
                             }else{
                                 File.Write_Text_File( Sheet_AE.this,path_braille,file_out,Symbol + "-"+ Symbol_elec +";"); // Error
@@ -138,7 +127,6 @@ public class Sheet_AE extends AppCompatActivity {
                             break;
                         case 2:
                             if (flag_ok) {
-
                                 File.Write_Text_File( Sheet_AE.this,path_braille,file_out,Symbol + ";" );  // Éxito
                             }else{
                                 File.Write_Text_File(Sheet_AE.this, path_braille,file_out, Symbol + "-"+ Symbol_elec +";"); // Error
@@ -146,22 +134,17 @@ public class Sheet_AE extends AppCompatActivity {
                             break;
                         case 3:
                             if (flag_ok) {
-
                                 File.Write_Text_File(Sheet_AE.this, path_braille,file_out,Symbol + ";");  // Éxito
                             }else{
                                 File.Write_Text_File( Sheet_AE.this,path_braille,file_out, Symbol + "-"+ Symbol_elec +";"); // Error
                             }
                             break;
-
                         case 4:
                             if (flag_ok) {
-
                                 File.Write_Text_File(Sheet_AE.this, path_braille,file_out,Symbol + ";" );  // Éxito
                             }else{
                                 File.Write_Text_File( Sheet_AE.this,path_braille,file_out, Symbol + "-"+ Symbol_elec +";"); // Error
                             }
-
-
                             break;
                         case 5:
                             if (Sc == 5)  {
@@ -173,20 +156,14 @@ public class Sheet_AE extends AppCompatActivity {
                                 Activ_test = false;
                                 textView2.setText("Fin del test");
                                 Sound(36);
-
                             }else {
                                 File.Write_Text_File( Sheet_AE.this,path_braille,file_out, Symbol + "-"+ Symbol_elec +";\n"); // línea no completada
-
 
                                 Sound(35);
                                 secondLeft = 0;
                                 // On=false;
-
                             }
-
-
                             break;
-
                     }
 
                 }
@@ -202,200 +179,142 @@ public class Sheet_AE extends AppCompatActivity {
     }
 
     // Function locutions
-
-
-    public void Sound( int code) {
-
+    public void Sound(int code) {
        // MediaPlayer mp;
-
         switch (code) {
-
             case 1:
                 mp = MediaPlayer.create(this, R.raw.a_pantera_rosa);
                 mp.start();
                 break;
-
             case 2:
-
                 mp = MediaPlayer.create(this, R.raw.b_sirena_barco);
                 mp.start();
                 break;
-
             case 3:
-
                 mp = MediaPlayer.create(this, R.raw.c_galope_caballo);
                 mp.start();
                 break;
-
             case 4:
-
                 mp = MediaPlayer.create(this, R.raw.d_disparo_arma);
                 mp.start();
                 break;
-
             case 5:
-
                 mp = MediaPlayer.create(this, R.raw.e_maquina_de_escribir);
                 mp.start();
                 break;
-
             case 11:
-
                 mp = MediaPlayer.create(this, R.raw.alphabet_a);
                 mp.start();
                 break;
-
             case 12:
-
                 mp = MediaPlayer.create(this, R.raw.alphabet_b);
                 mp.start();
                 break;
-
             case 13:
-
                 mp = MediaPlayer.create(this, R.raw.alphabet_c);
                 mp.start();
                 break;
-
             case 14:
-
                 mp = MediaPlayer.create(this, R.raw.alphabet_d);
                 mp.start();
                 break;
-
             case 15:
-
                 mp = MediaPlayer.create(this, R.raw.alphabet_e);
                 mp.start();
                 break;
-
-
-
             case 20:
-
                 mp = MediaPlayer.create(this, R.raw.loc_acierto);
                 mp.start();
                 break;
-
             case 21:
-
                 mp = MediaPlayer.create(this, R.raw.loc_error);
                 mp.start();
                 break;
-
             case 22:
-
                 mp = MediaPlayer.create(this, R.raw.loc_final_test);
                 mp.start();
                 break;
-
-
             case 23:
-
                 mp = MediaPlayer.create(this, R.raw.sheet_ae);
                 mp.start();
                 break;
             case 24:
-
                 mp = MediaPlayer.create(this, R.raw.primer_entrenamiento);
                 mp.start();
                 break;
-
             case 25:
-
                 mp = MediaPlayer.create(this, R.raw.primera_linea_test);
                 mp.start();
                 break;
             case 26:
-
                 mp = MediaPlayer.create(this, R.raw.segundo_entrenamiento);
                 mp.start();
                 break;
             case 27:
-
                 mp = MediaPlayer.create(this, R.raw.segunda_linea_test);
                 mp.start();
                 break;
             case 28:
-
                 mp = MediaPlayer.create(this, R.raw.tercer_entrenamiento);
                 mp.start();
                 break;
             case 29:
-
                 mp = MediaPlayer.create(this, R.raw.tercera_linea_test);
                 mp.start();
                 break;
             case 30:
-
                 mp = MediaPlayer.create(this, R.raw.cuarto_entrenamiento);
                 mp.start();
                 break;
             case 31:
-
                 mp = MediaPlayer.create(this, R.raw.cuarta_linea_test);
                 mp.start();
                 break;
             case 32:
-
                 mp = MediaPlayer.create(this, R.raw.quinto_entrenamiento);
                 mp.start();
                 break;
             case 33:
-
                 mp = MediaPlayer.create(this, R.raw.quinta_linea_test);
                 mp.start();
                 break;
             case 34:
-
                 mp = MediaPlayer.create(this, R.raw.idprueba);
                 mp.start();
                 break;
             case 35:
-
                 mp = MediaPlayer.create(this, R.raw.linea_er);
                 mp.start();
                 break;
             case 36:
-
                 mp = MediaPlayer.create(this, R.raw.linea_sc);
                 mp.start();
                 break;
-
             case 40:
-
                 mp = MediaPlayer.create(this, R.raw.numbers_a);
                 mp.start();
                 break;
             case 41:
-
                 mp = MediaPlayer.create(this, R.raw.numbers_b);
                 mp.start();
                 break;
             case 42:
-
                 mp = MediaPlayer.create(this, R.raw.numbers_c);
                 mp.start();
                 break;
             case 43:
-
                 mp = MediaPlayer.create(this, R.raw.numbers_d);
                 mp.start();
                 break;
             case 44:
-
                 mp = MediaPlayer.create(this, R.raw.numbers_e);
                 mp.start();
                 break;
-
         }
-
-
     }
 
 
     //  Patterns notification
-
     public void Notification( String Text1, String Text2, int icono, long[] pattern)
     {
         NotificationCompat.Builder mBuilder;
@@ -431,10 +350,6 @@ public class Sheet_AE extends AppCompatActivity {
     private TextView textView2;
     private TextView textView3;
 
-    private TextView textView_file1;
-    private TextView textView_file2;
-
-
     // State variable and test time
     int Status_test = 0;
     int Time_slot = 120;
@@ -452,7 +367,7 @@ public class Sheet_AE extends AppCompatActivity {
 
     // Voice coordination
 
-     triggeslot wait = new triggeslot();
+     //triggeslot wait = new triggeslot();
 
     // Overload TimeTask object
 
@@ -489,51 +404,7 @@ public class Sheet_AE extends AppCompatActivity {
                             On = false;
 
                             //Cambio de estado Test
-
-                            switch (Status_test) {
-                                case 0:
-                                    Status_test = 1;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 1:
-                                    Status_test = 2;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 2:
-                                    Status_test = 3;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 3:
-                                    Status_test = 4;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 4:
-                                    Status_test = 5;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 5:
-                                    Status_test = 6;
-                                    // textView3.setText(Status_test);
-                                    break;
-                                case 6:
-                                    Status_test = 7;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 7:
-                                    Status_test = 8;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 8:
-                                    Status_test = 9;
-                                    //textView3.setText(Status_test);
-                                    break;
-                                case 9:
-                                    Status_test = 0;
-                                    //textView3.setText(Status_test);
-                                    break;
-
-                            }
-
+                            Status_test = (Status_test + 1) % 10;
                         }
                     }
                 }
@@ -1740,7 +1611,7 @@ public class Sheet_AE extends AppCompatActivity {
                         textView.setText("" + secondLeft);
 
 
-                        if ((secondLeft > 0) & ((Status_test == 2) | (Status_test == 4) | (Status_test == 6) | (Status_test == 8) | (Status_test == 0))) {
+                        if ((secondLeft > 0) && ((Status_test == 2) || (Status_test == 4) || (Status_test == 6) || (Status_test == 8) || (Status_test == 0))) {
 
                             switch (selected_test) {
                                 case 0:
