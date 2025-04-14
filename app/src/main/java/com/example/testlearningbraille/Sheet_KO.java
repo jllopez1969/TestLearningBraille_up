@@ -1203,11 +1203,43 @@ public class Sheet_KO extends AppCompatActivity {
                                 button50.setVisibility(View.INVISIBLE);
                                 button51.setVisibility(View.INVISIBLE);
 
+                                button1.setImageResource(R.drawable.png11);
+                                button2.setImageResource(R.drawable.png12);
+                                button3.setImageResource(R.drawable.png13);
+                                button4.setImageResource(R.drawable.png14);
+                                button5.setImageResource(R.drawable.png16);
+
+                                button6.setImageResource(R.drawable.png11);
+                                button7.setImageResource(R.drawable.png13);
+                                button8.setImageResource(R.drawable.png16);
+                                button9.setImageResource(R.drawable.png12);
+                                button10.setImageResource(R.drawable.png14);
+
+                                button11.setImageResource(R.drawable.png13);
+                                button12.setImageResource(R.drawable.png11);
+                                button13.setImageResource(R.drawable.png14);
+                                button14.setImageResource(R.drawable.png16);
+                                button15.setImageResource(R.drawable.png12);
+
+                                button16.setImageResource(R.drawable.png16);
+                                button17.setImageResource(R.drawable.png11);
+                                button18.setImageResource(R.drawable.png14);
+                                button19.setImageResource(R.drawable.png16);
+                                button20.setImageResource(R.drawable.png12);
+
+                                button21.setImageResource(R.drawable.png13);
+                                button22.setImageResource(R.drawable.png11);
+                                button23.setImageResource(R.drawable.png14);
+                                button24.setImageResource(R.drawable.png12);
+                                button25.setImageResource(R.drawable.png16);
+
                                 button26.setImageResource(R.drawable.png12);
                                 button27.setImageResource(R.drawable.png16);
                                 button28.setImageResource(R.drawable.png11);
                                 button29.setImageResource(R.drawable.png14);
                                 button30.setImageResource(R.drawable.png13);
+
+
 
                                 Sound(24);
                                 break;
@@ -1228,11 +1260,52 @@ public class Sheet_KO extends AppCompatActivity {
                                 button42.setVisibility(View.VISIBLE);
                                 button43.setVisibility(View.VISIBLE);
 
+                                // Response Column
+
+                                button61.setImageResource(R.drawable.upng11);
+                                button62.setImageResource(R.drawable.upng12);
+                                button63.setImageResource(R.drawable.upng13);
+                                button64.setImageResource(R.drawable.upng14);
+                                button65.setImageResource(R.drawable.upng16);
+
+                                //Experiment line
                                 button6.setImageResource(R.drawable.png0);
                                 button7.setImageResource(R.drawable.png0);
                                 button8.setImageResource(R.drawable.png0);
                                 button9.setImageResource(R.drawable.png0);
                                 button10.setImageResource(R.drawable.png0);
+
+                                // all lines
+
+                                button1.setImageResource(R.drawable.unsigned);
+                                button2.setImageResource(R.drawable.unsigned);
+                                button3.setImageResource(R.drawable.unsigned);
+                                button4.setImageResource(R.drawable.unsigned);
+                                button5.setImageResource(R.drawable.unsigned);
+
+                                button11.setImageResource(R.drawable.unsigned);
+                                button12.setImageResource(R.drawable.unsigned);
+                                button13.setImageResource(R.drawable.unsigned);
+                                button14.setImageResource(R.drawable.unsigned);
+                                button15.setImageResource(R.drawable.unsigned);
+
+                                button16.setImageResource(R.drawable.unsigned);
+                                button17.setImageResource(R.drawable.unsigned);
+                                button18.setImageResource(R.drawable.unsigned);
+                                button19.setImageResource(R.drawable.unsigned);
+                                button20.setImageResource(R.drawable.unsigned);
+
+                                button21.setImageResource(R.drawable.unsigned);
+                                button22.setImageResource(R.drawable.unsigned);
+                                button23.setImageResource(R.drawable.unsigned);
+                                button24.setImageResource(R.drawable.unsigned);
+                                button25.setImageResource(R.drawable.unsigned);
+
+                                button26.setImageResource(R.drawable.unsigned);
+                                button27.setImageResource(R.drawable.unsigned);
+                                button28.setImageResource(R.drawable.unsigned);
+                                button29.setImageResource(R.drawable.unsigned);
+                                button30.setImageResource(R.drawable.unsigned);
 
 
                                 if (Activ_test) {
@@ -1260,11 +1333,41 @@ public class Sheet_KO extends AppCompatActivity {
                                 button42.setVisibility(View.INVISIBLE);
                                 button43.setVisibility(View.INVISIBLE);
 
+                                button1.setImageResource(R.drawable.png11);
+                                button2.setImageResource(R.drawable.png12);
+                                button3.setImageResource(R.drawable.png13);
+                                button4.setImageResource(R.drawable.png14);
+                                button5.setImageResource(R.drawable.png16);
+
                                 button6.setImageResource(R.drawable.png11);
                                 button7.setImageResource(R.drawable.png13);
                                 button8.setImageResource(R.drawable.png16);
                                 button9.setImageResource(R.drawable.png12);
                                 button10.setImageResource(R.drawable.png14);
+
+                                button11.setImageResource(R.drawable.png13);
+                                button12.setImageResource(R.drawable.png11);
+                                button13.setImageResource(R.drawable.png14);
+                                button14.setImageResource(R.drawable.png16);
+                                button15.setImageResource(R.drawable.png12);
+
+                                button16.setImageResource(R.drawable.png16);
+                                button17.setImageResource(R.drawable.png11);
+                                button18.setImageResource(R.drawable.png14);
+                                button19.setImageResource(R.drawable.png16);
+                                button20.setImageResource(R.drawable.png12);
+
+                                button21.setImageResource(R.drawable.png13);
+                                button22.setImageResource(R.drawable.png11);
+                                button23.setImageResource(R.drawable.png14);
+                                button24.setImageResource(R.drawable.png12);
+                                button25.setImageResource(R.drawable.png16);
+
+                                button26.setImageResource(R.drawable.png12);
+                                button27.setImageResource(R.drawable.png16);
+                                button28.setImageResource(R.drawable.png11);
+                                button29.setImageResource(R.drawable.png14);
+                                button30.setImageResource(R.drawable.png13);
 
 
                                 Sound(26);
@@ -1286,12 +1389,53 @@ public class Sheet_KO extends AppCompatActivity {
                                 button41.setVisibility(View.INVISIBLE);
                                 button44.setVisibility(View.VISIBLE);
                                 button45.setVisibility(View.VISIBLE);
+                                button61.setImageResource(R.drawable.upng11);
+                                button62.setImageResource(R.drawable.upng12);
+                                button63.setImageResource(R.drawable.upng13);
+                                button64.setImageResource(R.drawable.upng14);
+                                button65.setImageResource(R.drawable.upng16);
 
+                                //Experiment line
                                 button11.setImageResource(R.drawable.png0);
                                 button12.setImageResource(R.drawable.png0);
                                 button13.setImageResource(R.drawable.png0);
                                 button14.setImageResource(R.drawable.png0);
                                 button15.setImageResource(R.drawable.png0);
+
+
+                                // all lines
+
+                                button1.setImageResource(R.drawable.unsigned);
+                                button2.setImageResource(R.drawable.unsigned);
+                                button3.setImageResource(R.drawable.unsigned);
+                                button4.setImageResource(R.drawable.unsigned);
+
+                                button5.setImageResource(R.drawable.unsigned);
+                                button6.setImageResource(R.drawable.unsigned);
+                                button7.setImageResource(R.drawable.unsigned);
+                                button8.setImageResource(R.drawable.unsigned);
+                                button9.setImageResource(R.drawable.unsigned);
+                                button10.setImageResource(R.drawable.unsigned);
+
+
+                                button16.setImageResource(R.drawable.unsigned);
+                                button17.setImageResource(R.drawable.unsigned);
+                                button18.setImageResource(R.drawable.unsigned);
+                                button19.setImageResource(R.drawable.unsigned);
+                                button20.setImageResource(R.drawable.unsigned);
+
+                                button21.setImageResource(R.drawable.unsigned);
+                                button22.setImageResource(R.drawable.unsigned);
+                                button23.setImageResource(R.drawable.unsigned);
+                                button24.setImageResource(R.drawable.unsigned);
+                                button25.setImageResource(R.drawable.unsigned);
+
+                                button26.setImageResource(R.drawable.unsigned);
+                                button27.setImageResource(R.drawable.unsigned);
+                                button28.setImageResource(R.drawable.unsigned);
+                                button29.setImageResource(R.drawable.unsigned);
+                                button30.setImageResource(R.drawable.unsigned);
+
 
 
                                 if (Activ_test) {
@@ -1318,11 +1462,43 @@ public class Sheet_KO extends AppCompatActivity {
                                 button44.setVisibility(View.INVISIBLE);
                                 button45.setVisibility(View.INVISIBLE);
 
+                                button1.setImageResource(R.drawable.png11);
+                                button2.setImageResource(R.drawable.png12);
+                                button3.setImageResource(R.drawable.png13);
+                                button4.setImageResource(R.drawable.png14);
+                                button5.setImageResource(R.drawable.png16);
+
+                                button6.setImageResource(R.drawable.png11);
+                                button7.setImageResource(R.drawable.png13);
+                                button8.setImageResource(R.drawable.png16);
+                                button9.setImageResource(R.drawable.png12);
+                                button10.setImageResource(R.drawable.png14);
+
                                 button11.setImageResource(R.drawable.png13);
                                 button12.setImageResource(R.drawable.png11);
                                 button13.setImageResource(R.drawable.png14);
                                 button14.setImageResource(R.drawable.png16);
                                 button15.setImageResource(R.drawable.png12);
+
+                                button16.setImageResource(R.drawable.png16);
+                                button17.setImageResource(R.drawable.png11);
+                                button18.setImageResource(R.drawable.png14);
+                                button19.setImageResource(R.drawable.png16);
+                                button20.setImageResource(R.drawable.png12);
+
+                                button21.setImageResource(R.drawable.png13);
+                                button22.setImageResource(R.drawable.png11);
+                                button23.setImageResource(R.drawable.png14);
+                                button24.setImageResource(R.drawable.png12);
+                                button25.setImageResource(R.drawable.png16);
+
+                                button26.setImageResource(R.drawable.png12);
+                                button27.setImageResource(R.drawable.png16);
+                                button28.setImageResource(R.drawable.png11);
+                                button29.setImageResource(R.drawable.png14);
+                                button30.setImageResource(R.drawable.png13);
+
+
 
                                 Sound(28);
                                 break;
@@ -1343,11 +1519,55 @@ public class Sheet_KO extends AppCompatActivity {
                                 button46.setVisibility(View.VISIBLE);
                                 button47.setVisibility(View.VISIBLE);
 
+                                button61.setImageResource(R.drawable.upng11);
+                                button62.setImageResource(R.drawable.upng12);
+                                button63.setImageResource(R.drawable.upng13);
+                                button64.setImageResource(R.drawable.upng14);
+                                button65.setImageResource(R.drawable.upng16);
+
+                                //Experiment line
                                 button16.setImageResource(R.drawable.png0);
                                 button17.setImageResource(R.drawable.png0);
                                 button18.setImageResource(R.drawable.png0);
                                 button19.setImageResource(R.drawable.png0);
                                 button20.setImageResource(R.drawable.png0);
+
+
+
+                                // all lines
+
+                                button1.setImageResource(R.drawable.unsigned);
+                                button2.setImageResource(R.drawable.unsigned);
+                                button3.setImageResource(R.drawable.unsigned);
+                                button4.setImageResource(R.drawable.unsigned);
+                                button5.setImageResource(R.drawable.unsigned);
+
+                                button6.setImageResource(R.drawable.unsigned);
+                                button7.setImageResource(R.drawable.unsigned);
+                                button8.setImageResource(R.drawable.unsigned);
+                                button9.setImageResource(R.drawable.unsigned);
+                                button10.setImageResource(R.drawable.unsigned);
+
+                                button11.setImageResource(R.drawable.unsigned);
+                                button12.setImageResource(R.drawable.unsigned);
+                                button13.setImageResource(R.drawable.unsigned);
+                                button14.setImageResource(R.drawable.unsigned);
+                                button15.setImageResource(R.drawable.unsigned);
+
+
+                                button21.setImageResource(R.drawable.unsigned);
+                                button22.setImageResource(R.drawable.unsigned);
+                                button23.setImageResource(R.drawable.unsigned);
+                                button24.setImageResource(R.drawable.unsigned);
+                                button25.setImageResource(R.drawable.unsigned);
+
+                                button26.setImageResource(R.drawable.unsigned);
+                                button27.setImageResource(R.drawable.unsigned);
+                                button28.setImageResource(R.drawable.unsigned);
+                                button29.setImageResource(R.drawable.unsigned);
+                                button30.setImageResource(R.drawable.unsigned);
+
+
 
 
                                 if (Activ_test) {
@@ -1375,12 +1595,42 @@ public class Sheet_KO extends AppCompatActivity {
                                 button41.setVisibility(View.VISIBLE);
                                 button46.setVisibility(View.INVISIBLE);
                                 button47.setVisibility(View.INVISIBLE);
+                                button1.setImageResource(R.drawable.png11);
+                                button2.setImageResource(R.drawable.png12);
+                                button3.setImageResource(R.drawable.png13);
+                                button4.setImageResource(R.drawable.png14);
+                                button5.setImageResource(R.drawable.png16);
+
+                                button6.setImageResource(R.drawable.png11);
+                                button7.setImageResource(R.drawable.png13);
+                                button8.setImageResource(R.drawable.png16);
+                                button9.setImageResource(R.drawable.png12);
+                                button10.setImageResource(R.drawable.png14);
+
+                                button11.setImageResource(R.drawable.png13);
+                                button12.setImageResource(R.drawable.png11);
+                                button13.setImageResource(R.drawable.png14);
+                                button14.setImageResource(R.drawable.png16);
+                                button15.setImageResource(R.drawable.png12);
 
                                 button16.setImageResource(R.drawable.png16);
                                 button17.setImageResource(R.drawable.png11);
                                 button18.setImageResource(R.drawable.png14);
                                 button19.setImageResource(R.drawable.png16);
                                 button20.setImageResource(R.drawable.png12);
+
+                                button21.setImageResource(R.drawable.png13);
+                                button22.setImageResource(R.drawable.png11);
+                                button23.setImageResource(R.drawable.png14);
+                                button24.setImageResource(R.drawable.png12);
+                                button25.setImageResource(R.drawable.png16);
+
+                                button26.setImageResource(R.drawable.png12);
+                                button27.setImageResource(R.drawable.png16);
+                                button28.setImageResource(R.drawable.png11);
+                                button29.setImageResource(R.drawable.png14);
+                                button30.setImageResource(R.drawable.png13);
+
 
                                 break;
                             case 7:
@@ -1400,11 +1650,54 @@ public class Sheet_KO extends AppCompatActivity {
                                 button48.setVisibility(View.VISIBLE);
                                 button49.setVisibility(View.VISIBLE);
 
+
+                                button61.setImageResource(R.drawable.upng11);
+                                button62.setImageResource(R.drawable.upng12);
+                                button63.setImageResource(R.drawable.upng13);
+                                button64.setImageResource(R.drawable.upng14);
+                                button65.setImageResource(R.drawable.upng16);
+
+                                //Experiment line
                                 button21.setImageResource(R.drawable.png0);
                                 button22.setImageResource(R.drawable.png0);
                                 button23.setImageResource(R.drawable.png0);
                                 button24.setImageResource(R.drawable.png0);
                                 button25.setImageResource(R.drawable.png0);
+
+
+                                // all lines
+
+                                button1.setImageResource(R.drawable.unsigned);
+                                button2.setImageResource(R.drawable.unsigned);
+                                button3.setImageResource(R.drawable.unsigned);
+                                button4.setImageResource(R.drawable.unsigned);
+                                button5.setImageResource(R.drawable.unsigned);
+
+                                button6.setImageResource(R.drawable.unsigned);
+                                button7.setImageResource(R.drawable.unsigned);
+                                button8.setImageResource(R.drawable.unsigned);
+                                button9.setImageResource(R.drawable.unsigned);
+                                button10.setImageResource(R.drawable.unsigned);
+
+                                button11.setImageResource(R.drawable.unsigned);
+                                button12.setImageResource(R.drawable.unsigned);
+                                button13.setImageResource(R.drawable.unsigned);
+                                button14.setImageResource(R.drawable.unsigned);
+                                button15.setImageResource(R.drawable.unsigned);
+
+                                button16.setImageResource(R.drawable.unsigned);
+                                button17.setImageResource(R.drawable.unsigned);
+                                button18.setImageResource(R.drawable.unsigned);
+                                button19.setImageResource(R.drawable.unsigned);
+                                button20.setImageResource(R.drawable.unsigned);
+
+
+                                button26.setImageResource(R.drawable.unsigned);
+                                button27.setImageResource(R.drawable.unsigned);
+                                button28.setImageResource(R.drawable.unsigned);
+                                button29.setImageResource(R.drawable.unsigned);
+                                button30.setImageResource(R.drawable.unsigned);
+
 
                                 if (Activ_test) {
                                     WriteFileTest File4 = new WriteFileTest();
@@ -1431,11 +1724,42 @@ public class Sheet_KO extends AppCompatActivity {
                                 button48.setVisibility(View.INVISIBLE);
                                 button49.setVisibility(View.INVISIBLE);
 
+                                button1.setImageResource(R.drawable.png11);
+                                button2.setImageResource(R.drawable.png12);
+                                button3.setImageResource(R.drawable.png13);
+                                button4.setImageResource(R.drawable.png14);
+                                button5.setImageResource(R.drawable.png16);
+
+                                button6.setImageResource(R.drawable.png11);
+                                button7.setImageResource(R.drawable.png13);
+                                button8.setImageResource(R.drawable.png16);
+                                button9.setImageResource(R.drawable.png12);
+                                button10.setImageResource(R.drawable.png14);
+
+                                button11.setImageResource(R.drawable.png13);
+                                button12.setImageResource(R.drawable.png11);
+                                button13.setImageResource(R.drawable.png14);
+                                button14.setImageResource(R.drawable.png16);
+                                button15.setImageResource(R.drawable.png12);
+
+                                button16.setImageResource(R.drawable.png16);
+                                button17.setImageResource(R.drawable.png11);
+                                button18.setImageResource(R.drawable.png14);
+                                button19.setImageResource(R.drawable.png16);
+                                button20.setImageResource(R.drawable.png12);
+
                                 button21.setImageResource(R.drawable.png13);
                                 button22.setImageResource(R.drawable.png11);
                                 button23.setImageResource(R.drawable.png14);
                                 button24.setImageResource(R.drawable.png12);
                                 button25.setImageResource(R.drawable.png16);
+
+                                button26.setImageResource(R.drawable.png12);
+                                button27.setImageResource(R.drawable.png16);
+                                button28.setImageResource(R.drawable.png11);
+                                button29.setImageResource(R.drawable.png14);
+                                button30.setImageResource(R.drawable.png13);
+
 
                                 Sound(32);
                                 break;
@@ -1454,11 +1778,56 @@ public class Sheet_KO extends AppCompatActivity {
                                 button50.setVisibility(View.VISIBLE);
                                 button51.setVisibility(View.VISIBLE);
 
+                                // Response Column
+                                button61.setImageResource(R.drawable.upng11);
+                                button62.setImageResource(R.drawable.upng12);
+                                button63.setImageResource(R.drawable.upng13);
+                                button64.setImageResource(R.drawable.upng14);
+                                button65.setImageResource(R.drawable.upng16);
+
+                                //Experiment line
                                 button26.setImageResource(R.drawable.png0);
                                 button27.setImageResource(R.drawable.png0);
                                 button28.setImageResource(R.drawable.png0);
                                 button29.setImageResource(R.drawable.png0);
                                 button30.setImageResource(R.drawable.png0);
+
+
+
+                                // all lines
+
+                                button1.setImageResource(R.drawable.unsigned);
+                                button2.setImageResource(R.drawable.unsigned);
+                                button3.setImageResource(R.drawable.unsigned);
+                                button4.setImageResource(R.drawable.unsigned);
+                                button5.setImageResource(R.drawable.unsigned);
+
+                                button6.setImageResource(R.drawable.unsigned);
+                                button7.setImageResource(R.drawable.unsigned);
+                                button8.setImageResource(R.drawable.unsigned);
+                                button9.setImageResource(R.drawable.unsigned);
+                                button10.setImageResource(R.drawable.unsigned);
+
+
+                                button11.setImageResource(R.drawable.unsigned);
+                                button12.setImageResource(R.drawable.unsigned);
+                                button13.setImageResource(R.drawable.unsigned);
+                                button14.setImageResource(R.drawable.unsigned);
+                                button15.setImageResource(R.drawable.unsigned);
+
+                                button16.setImageResource(R.drawable.unsigned);
+                                button17.setImageResource(R.drawable.unsigned);
+                                button18.setImageResource(R.drawable.unsigned);
+                                button19.setImageResource(R.drawable.unsigned);
+                                button20.setImageResource(R.drawable.unsigned);
+
+                                button21.setImageResource(R.drawable.unsigned);
+                                button22.setImageResource(R.drawable.unsigned);
+                                button23.setImageResource(R.drawable.unsigned);
+                                button24.setImageResource(R.drawable.unsigned);
+                                button25.setImageResource(R.drawable.unsigned);
+
+
 
                                 if (Activ_test) {
                                     WriteFileTest File5 = new WriteFileTest();
@@ -1493,6 +1862,7 @@ public class Sheet_KO extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if ( Double_Click('K'))
                                 {
+                                    button61.setImageResource(R.drawable.png11);
                                     button61.setEnabled(false);
                                 }
                                 Symbol_elec = 'K';
@@ -1522,6 +1892,7 @@ public class Sheet_KO extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if ( Double_Click('L'))
                                 {
+                                    button62.setImageResource(R.drawable.png12);
                                     button62.setEnabled(false);
                                 }
                                 Symbol_elec = 'L';
@@ -1553,6 +1924,7 @@ public class Sheet_KO extends AppCompatActivity {
 
                                 if ( Double_Click('M'))
                                 {
+                                    button63.setImageResource(R.drawable.png13);
                                     button63.setEnabled(false);
                                 }
                                 Symbol_elec = 'M';
@@ -1582,6 +1954,7 @@ public class Sheet_KO extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if ( Double_Click('N'))
                                 {
+                                    button64.setImageResource(R.drawable.png14);
                                     button64.setEnabled(false);
                                 }
                                 Symbol_elec = 'N';
@@ -1611,6 +1984,7 @@ public class Sheet_KO extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if ( Double_Click('O'))
                                 {
+                                    button65.setImageResource(R.drawable.png16);
                                     button65.setEnabled(false);
                                 }
                                 Symbol_elec = 'O';
