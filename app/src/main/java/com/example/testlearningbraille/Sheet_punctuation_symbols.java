@@ -2034,6 +2034,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 if (Double_Click('E'))
                                 {
                                     button65.setImageResource(R.drawable.png47);
+
                                     button65.setEnabled(false);
                                 }
                                 Symbol_elec = ',';
