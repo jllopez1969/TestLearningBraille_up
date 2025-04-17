@@ -555,7 +555,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
 
 
                     // Training case
-                    if (Symbol_NN & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if ((Symbol_NN) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -645,7 +645,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_W) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ((Symbol_W) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -672,7 +672,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
 
                     // Training case
-                    if (Symbol_UU & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if ((Symbol_UU) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -704,7 +704,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_UU) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ((Symbol_UU) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -730,7 +730,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
 
                     // Training case
-                    if (Symbol_pp & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if ((Symbol_pp) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -762,7 +762,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_pp) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ((Symbol_pp) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -788,7 +788,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
 
                     // Training case
-                    if (Symbol_cc & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if ((Symbol_cc) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -1870,7 +1870,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button19.setImageResource(R.drawable.unsigned);
                                 button20.setImageResource(R.drawable.unsigned);
 
-                                button22.setImageResource(R.drawable.unsigned);
+                                button21.setImageResource(R.drawable.unsigned);
                                 button22.setImageResource(R.drawable.unsigned);
                                 button23.setImageResource(R.drawable.unsigned);
                                 button24.setImageResource(R.drawable.unsigned);
