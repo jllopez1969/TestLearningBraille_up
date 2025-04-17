@@ -555,7 +555,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
 
 
                     // Training case
-                    if ((Symbol_NN) && ((Status_test==0)||(Status_test==2)||(Status_test==4) ||(Status_test==6)||(Status_test==8))) {
+                    if (Symbol_NN & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -588,7 +588,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_NN) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ( (Symbol_NN) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -613,7 +613,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                         count++;
                     }
                     // Training case
-                    if ((Symbol_W) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_W & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -645,7 +645,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_W) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ((Symbol_W) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -672,7 +672,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
 
                     // Training case
-                    if ((Symbol_UU) & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_UU & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -704,7 +704,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_UU) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ((Symbol_UU) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -730,7 +730,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
 
                     // Training case
-                    if ((Symbol_pp) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_pp & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -762,7 +762,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_pp) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ((Symbol_pp) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -788,7 +788,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
 
                     // Training case
-                    if ((Symbol_cc) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_cc & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -821,7 +821,7 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_cc) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
+                    if ((Symbol_cc) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -1200,51 +1200,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button50.setVisibility(View.INVISIBLE);
                                 button51.setVisibility(View.INVISIBLE);
 
-                                // Response line
-
-                                button61.setImageResource(R.drawable.png15);
-                                button62.setImageResource(R.drawable.png24);
-                                button63.setImageResource(R.drawable.png45);
-                                button64.setImageResource(R.drawable.png46);
-                                button65.setImageResource(R.drawable.png47);
-
-                                // Simbol lines
-                                button1.setImageResource(R.drawable.png15);
-                                button2.setImageResource(R.drawable.png24);
-                                button3.setImageResource(R.drawable.png45);
-                                button4.setImageResource(R.drawable.png46);
-                                button5.setImageResource(R.drawable.png47);
-
-                                button6.setImageResource(R.drawable.png46);
-                                button7.setImageResource(R.drawable.png24);
-                                button8.setImageResource(R.drawable.png7);
-                                button9.setImageResource(R.drawable.png45);
-                                button10.setImageResource(R.drawable.png47);
-
-                                button11.setImageResource(R.drawable.png24);
-                                button12.setImageResource(R.drawable.png46);
-                                button13.setImageResource(R.drawable.png47);
-                                button14.setImageResource(R.drawable.png7);
-                                button15.setImageResource(R.drawable.png45);
-
-                                button16.setImageResource(R.drawable.png7);
-                                button17.setImageResource(R.drawable.png45);
-                                button18.setImageResource(R.drawable.png24);
-                                button19.setImageResource(R.drawable.png46);
-                                button20.setImageResource(R.drawable.png47);
-
-                                button21.setImageResource(R.drawable.png24);
-                                button22.setImageResource(R.drawable.png47);
-                                button23.setImageResource(R.drawable.png45);
-                                button24.setImageResource(R.drawable.png46);
-                                button25.setImageResource(R.drawable.png7);
-
                                 button26.setImageResource(R.drawable.png46);
                                 button27.setImageResource(R.drawable.png7);
                                 button28.setImageResource(R.drawable.png45);
                                 button29.setImageResource(R.drawable.png47);
                                 button30.setImageResource(R.drawable.png24);
-
 
                                 Sound(24);
                                 break;
@@ -1271,53 +1231,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button42.setVisibility(View.VISIBLE);
                                 button43.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng15);
-                                button62.setImageResource(R.drawable.upng24);
-                                button63.setImageResource(R.drawable.upng45);
-                                button64.setImageResource(R.drawable.upng46);
-                                button65.setImageResource(R.drawable.upng47);
-
-                                //Experiment line
                                 button6.setImageResource(R.drawable.png0);
                                 button7.setImageResource(R.drawable.png0);
                                 button8.setImageResource(R.drawable.png0);
                                 button9.setImageResource(R.drawable.png0);
                                 button10.setImageResource(R.drawable.png0);
-
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
 
                                 if (Activ_test) {
                                     WriteFileTest File = new WriteFileTest();
@@ -1341,52 +1259,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button42.setVisibility(View.INVISIBLE);
                                 button43.setVisibility(View.INVISIBLE);
 
-                                // Response line
-
-                                button61.setImageResource(R.drawable.png15);
-                                button62.setImageResource(R.drawable.png24);
-                                button63.setImageResource(R.drawable.png45);
-                                button64.setImageResource(R.drawable.png46);
-                                button65.setImageResource(R.drawable.png47);
-
-
-
-                                // Simbol lines
-                                button1.setImageResource(R.drawable.png15);
-                                button2.setImageResource(R.drawable.png24);
-                                button3.setImageResource(R.drawable.png45);
-                                button4.setImageResource(R.drawable.png46);
-                                button5.setImageResource(R.drawable.png47);
-
                                 button6.setImageResource(R.drawable.png46);
                                 button7.setImageResource(R.drawable.png24);
-                                button8.setImageResource(R.drawable.png15);
+                                button8.setImageResource(R.drawable.png7);
                                 button9.setImageResource(R.drawable.png45);
                                 button10.setImageResource(R.drawable.png47);
-
-                                button11.setImageResource(R.drawable.png24);
-                                button12.setImageResource(R.drawable.png46);
-                                button13.setImageResource(R.drawable.png47);
-                                button14.setImageResource(R.drawable.png15);
-                                button15.setImageResource(R.drawable.png45);
-
-                                button16.setImageResource(R.drawable.png7);
-                                button17.setImageResource(R.drawable.png45);
-                                button18.setImageResource(R.drawable.png24);
-                                button19.setImageResource(R.drawable.png46);
-                                button20.setImageResource(R.drawable.png47);
-
-                                button21.setImageResource(R.drawable.png24);
-                                button22.setImageResource(R.drawable.png47);
-                                button23.setImageResource(R.drawable.png45);
-                                button24.setImageResource(R.drawable.png46);
-                                button25.setImageResource(R.drawable.png15);
-
-                                button26.setImageResource(R.drawable.png46);
-                                button27.setImageResource(R.drawable.png15);
-                                button28.setImageResource(R.drawable.png45);
-                                button29.setImageResource(R.drawable.png47);
-                                button30.setImageResource(R.drawable.png24);
 
                                 Sound(26);
                                 break;
@@ -1405,53 +1282,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button44.setVisibility(View.VISIBLE);
                                 button45.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng15);
-                                button62.setImageResource(R.drawable.upng24);
-                                button63.setImageResource(R.drawable.upng45);
-                                button64.setImageResource(R.drawable.upng46);
-                                button65.setImageResource(R.drawable.upng47);
-
-                                //Experiment line
                                 button11.setImageResource(R.drawable.png0);
                                 button12.setImageResource(R.drawable.png0);
                                 button13.setImageResource(R.drawable.png0);
                                 button14.setImageResource(R.drawable.png0);
                                 button15.setImageResource(R.drawable.png0);
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
 
 
                                 Sc = 0;
@@ -1484,51 +1319,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button44.setVisibility(View.INVISIBLE);
                                 button45.setVisibility(View.INVISIBLE);
 
-                                // Response line
-
-                                button61.setImageResource(R.drawable.png15);
-                                button62.setImageResource(R.drawable.png24);
-                                button63.setImageResource(R.drawable.png45);
-                                button64.setImageResource(R.drawable.png46);
-                                button65.setImageResource(R.drawable.png47);
-
-
-                                // Simbol lines
-                                button1.setImageResource(R.drawable.png15);
-                                button2.setImageResource(R.drawable.png24);
-                                button3.setImageResource(R.drawable.png45);
-                                button4.setImageResource(R.drawable.png46);
-                                button5.setImageResource(R.drawable.png47);
-
-                                button6.setImageResource(R.drawable.png46);
-                                button7.setImageResource(R.drawable.png24);
-                                button8.setImageResource(R.drawable.png15);
-                                button9.setImageResource(R.drawable.png45);
-                                button10.setImageResource(R.drawable.png47);
-
                                 button11.setImageResource(R.drawable.png24);
                                 button12.setImageResource(R.drawable.png46);
                                 button13.setImageResource(R.drawable.png47);
-                                button14.setImageResource(R.drawable.png15);
+                                button14.setImageResource(R.drawable.png7);
                                 button15.setImageResource(R.drawable.png45);
-
-                                button16.setImageResource(R.drawable.png15);
-                                button17.setImageResource(R.drawable.png45);
-                                button18.setImageResource(R.drawable.png24);
-                                button19.setImageResource(R.drawable.png46);
-                                button20.setImageResource(R.drawable.png47);
-
-                                button21.setImageResource(R.drawable.png24);
-                                button22.setImageResource(R.drawable.png47);
-                                button23.setImageResource(R.drawable.png45);
-                                button24.setImageResource(R.drawable.png46);
-                                button25.setImageResource(R.drawable.png15);
-
-                                button26.setImageResource(R.drawable.png46);
-                                button27.setImageResource(R.drawable.png15);
-                                button28.setImageResource(R.drawable.png45);
-                                button29.setImageResource(R.drawable.png47);
-                                button30.setImageResource(R.drawable.png24);
 
                                 Sound(28);
                                 break;
@@ -1555,54 +1350,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button46.setVisibility(View.VISIBLE);
                                 button47.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng15);
-                                button62.setImageResource(R.drawable.upng24);
-                                button63.setImageResource(R.drawable.upng45);
-                                button64.setImageResource(R.drawable.upng46);
-                                button65.setImageResource(R.drawable.upng47);
-
-                                //Experiment line
-
                                 button16.setImageResource(R.drawable.png0);
                                 button17.setImageResource(R.drawable.png0);
                                 button18.setImageResource(R.drawable.png0);
                                 button19.setImageResource(R.drawable.png0);
                                 button20.setImageResource(R.drawable.png0);
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
-
-
 
                                 if (Activ_test) {
                                     WriteFileTest File3 = new WriteFileTest();
@@ -1625,53 +1377,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button46.setVisibility(View.INVISIBLE);
                                 button47.setVisibility(View.INVISIBLE);
 
-                                // Response line
-
-                                button61.setImageResource(R.drawable.png15);
-                                button62.setImageResource(R.drawable.png24);
-                                button63.setImageResource(R.drawable.png45);
-                                button64.setImageResource(R.drawable.png46);
-                                button65.setImageResource(R.drawable.png47);
-
-
-
-                                // Simbol lines
-                                button1.setImageResource(R.drawable.png15);
-                                button2.setImageResource(R.drawable.png24);
-                                button3.setImageResource(R.drawable.png45);
-                                button4.setImageResource(R.drawable.png46);
-                                button5.setImageResource(R.drawable.png47);
-
-                                button6.setImageResource(R.drawable.png46);
-                                button7.setImageResource(R.drawable.png24);
-                                button8.setImageResource(R.drawable.png15);
-                                button9.setImageResource(R.drawable.png45);
-                                button10.setImageResource(R.drawable.png47);
-
-                                button11.setImageResource(R.drawable.png24);
-                                button12.setImageResource(R.drawable.png46);
-                                button13.setImageResource(R.drawable.png47);
-                                button14.setImageResource(R.drawable.png7);
-                                button15.setImageResource(R.drawable.png45);
-
-                                button16.setImageResource(R.drawable.png15);
+                                button16.setImageResource(R.drawable.png7);
                                 button17.setImageResource(R.drawable.png45);
                                 button18.setImageResource(R.drawable.png24);
                                 button19.setImageResource(R.drawable.png46);
                                 button20.setImageResource(R.drawable.png47);
-
-                                button21.setImageResource(R.drawable.png24);
-                                button22.setImageResource(R.drawable.png47);
-                                button23.setImageResource(R.drawable.png45);
-                                button24.setImageResource(R.drawable.png46);
-                                button25.setImageResource(R.drawable.png15);
-
-                                button26.setImageResource(R.drawable.png46);
-                                button27.setImageResource(R.drawable.png15);
-                                button28.setImageResource(R.drawable.png45);
-                                button29.setImageResource(R.drawable.png47);
-                                button30.setImageResource(R.drawable.png24);
-
 
                                 Sound(30);
                                 break;
@@ -1698,54 +1408,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button48.setVisibility(View.VISIBLE);
                                 button49.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng15);
-                                button62.setImageResource(R.drawable.upng24);
-                                button63.setImageResource(R.drawable.upng45);
-                                button64.setImageResource(R.drawable.upng46);
-                                button65.setImageResource(R.drawable.upng47);
-
-                                //Experiment line
-
-
                                 button21.setImageResource(R.drawable.png0);
                                 button22.setImageResource(R.drawable.png0);
                                 button23.setImageResource(R.drawable.png0);
                                 button24.setImageResource(R.drawable.png0);
                                 button25.setImageResource(R.drawable.png0);
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
 
                                 if (Activ_test) {
                                     WriteFileTest File4 = new WriteFileTest();
@@ -1769,53 +1436,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button48.setVisibility(View.INVISIBLE);
                                 button49.setVisibility(View.INVISIBLE);
 
-                                // Response line
-
-                                button61.setImageResource(R.drawable.png15);
-                                button62.setImageResource(R.drawable.png24);
-                                button63.setImageResource(R.drawable.png45);
-                                button64.setImageResource(R.drawable.png46);
-                                button65.setImageResource(R.drawable.png47);
-
-
-
-                                // Simbol lines
-                                button1.setImageResource(R.drawable.png15);
-                                button2.setImageResource(R.drawable.png24);
-                                button3.setImageResource(R.drawable.png45);
-                                button4.setImageResource(R.drawable.png46);
-                                button5.setImageResource(R.drawable.png47);
-
-                                button6.setImageResource(R.drawable.png46);
-                                button7.setImageResource(R.drawable.png24);
-                                button8.setImageResource(R.drawable.png15);
-                                button9.setImageResource(R.drawable.png45);
-                                button10.setImageResource(R.drawable.png47);
-
-                                button11.setImageResource(R.drawable.png24);
-                                button12.setImageResource(R.drawable.png46);
-                                button13.setImageResource(R.drawable.png47);
-                                button14.setImageResource(R.drawable.png15);
-                                button15.setImageResource(R.drawable.png45);
-
-                                button16.setImageResource(R.drawable.png15);
-                                button17.setImageResource(R.drawable.png45);
-                                button18.setImageResource(R.drawable.png24);
-                                button19.setImageResource(R.drawable.png46);
-                                button20.setImageResource(R.drawable.png47);
-
                                 button21.setImageResource(R.drawable.png24);
                                 button22.setImageResource(R.drawable.png47);
                                 button23.setImageResource(R.drawable.png45);
                                 button24.setImageResource(R.drawable.png46);
-                                button25.setImageResource(R.drawable.png15);
-
-                                button26.setImageResource(R.drawable.png46);
-                                button27.setImageResource(R.drawable.png15);
-                                button28.setImageResource(R.drawable.png45);
-                                button29.setImageResource(R.drawable.png47);
-                                button30.setImageResource(R.drawable.png24);
-
+                                button25.setImageResource(R.drawable.png7);
 
                                 Sound(32);
                                 break;
@@ -1842,57 +1467,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                                 button50.setVisibility(View.VISIBLE);
                                 button51.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng15);
-                                button62.setImageResource(R.drawable.upng24);
-                                button63.setImageResource(R.drawable.upng45);
-                                button64.setImageResource(R.drawable.upng46);
-                                button65.setImageResource(R.drawable.upng47);
-
-                                //Experiment line
-
-
                                 button26.setImageResource(R.drawable.png0);
                                 button27.setImageResource(R.drawable.png0);
                                 button28.setImageResource(R.drawable.png0);
                                 button29.setImageResource(R.drawable.png0);
                                 button30.setImageResource(R.drawable.png0);
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
-
-
 
                                 if (Activ_test) {
                                     WriteFileTest File5 = new WriteFileTest();
@@ -1919,7 +1498,6 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if ( Double_Click('Ñ'))
                                 {
-                                    button61.setImageResource(R.drawable.png15);
                                     button61.setEnabled(false);
                                 }
                                 Symbol_elec = 'Ñ';
@@ -1955,8 +1533,6 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if (Double_Click('W'))
                                 {
-
-                                    button62.setImageResource(R.drawable.png24);
                                     button62.setEnabled(false);
                                 }
                                 Symbol_elec = 'W';
@@ -1988,8 +1564,6 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if (Double_Click('Ü'))
                                 {
-
-                                    button63.setImageResource(R.drawable.png45);
                                     button63.setEnabled(false);
                                 }
                                 Symbol_elec = 'Ü';
@@ -2017,10 +1591,8 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                         if ((Status_test == 1)|(Status_test == 3)|(Status_test == 5)|(Status_test == 7)|(Status_test == 9))
                         {
                             if (secondLeft>0) {
-                                if ( Double_Click('.'))
+                                if ( Double_Click('D'))
                                 {
-
-                                    button64.setImageResource(R.drawable.png46);
                                     button64.setEnabled(false);
                                 }
                                 Symbol_elec = '.';
@@ -2048,10 +1620,8 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                         if ((Status_test == 1)|(Status_test == 3)|(Status_test == 5)|(Status_test == 7)|(Status_test == 9))
                         {
                             if (secondLeft>0) {
-                                if (Double_Click(','))
+                                if (Double_Click('E'))
                                 {
-
-                                    button65.setImageResource(R.drawable.png47);
                                     button65.setEnabled(false);
                                 }
                                 Symbol_elec = ',';

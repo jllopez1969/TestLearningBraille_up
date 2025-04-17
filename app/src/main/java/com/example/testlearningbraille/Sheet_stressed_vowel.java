@@ -556,7 +556,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                     }
 
                     // Training case
-                    if ((Symbol_aa) & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_aa & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -592,7 +592,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_aa) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)))
+                    if ( (Symbol_aa) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -616,7 +616,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                         count++;
                     }
                     // Training case
-                    if ((Symbol_ee) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_ee & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -648,7 +648,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_ee) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)))
+                    if ((Symbol_ee) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -674,7 +674,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                         count++;
                     }
                     // Training case
-                    if ((Symbol_ii) & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_ii & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -706,7 +706,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_ii) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)))
+                    if ((Symbol_ii) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -730,7 +730,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                         count++;
                     }
                     // Training case
-                    if ((Symbol_oo) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_oo &((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -760,7 +760,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_oo) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)))
+                    if ((Symbol_oo) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -785,7 +785,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                         count++;
                     }
                     // Training case
-                    if ((Symbol_uu) && ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
+                    if (Symbol_uu & ((Status_test==0)||(Status_test==2)||(Status_test==4) || (Status_test==6)||(Status_test==8))) {
 
                         switch (selected_test) {
                             case 1:
@@ -817,7 +817,7 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                     }
                     // Experiment case
 
-                    if ((Symbol_uu) && ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)))
+                    if ((Symbol_uu) & ((Status_test==1)||(Status_test==3)||(Status_test==5) || (Status_test==7)||(Status_test==9)) )
                     {
                         switch (selected_test) {
                             case 1:
@@ -1197,37 +1197,6 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button50.setVisibility(View.INVISIBLE);
                                 button51.setVisibility(View.INVISIBLE);
 
-                                button1.setImageResource(R.drawable.png40);
-                                button2.setImageResource(R.drawable.png41);
-                                button3.setImageResource(R.drawable.png42);
-                                button4.setImageResource(R.drawable.png43);
-                                button5.setImageResource(R.drawable.png44);
-
-
-                                button6.setImageResource(R.drawable.png41);
-                                button7.setImageResource(R.drawable.png44);
-                                button8.setImageResource(R.drawable.png42);
-                                button9.setImageResource(R.drawable.png40);
-                                button10.setImageResource(R.drawable.png43);
-
-                                button11.setImageResource(R.drawable.png43);
-                                button12.setImageResource(R.drawable.png40);
-                                button13.setImageResource(R.drawable.png42);
-                                button14.setImageResource(R.drawable.png41);
-                                button15.setImageResource(R.drawable.png44);
-
-                                button16.setImageResource(R.drawable.png44);
-                                button17.setImageResource(R.drawable.png41);
-                                button18.setImageResource(R.drawable.png43);
-                                button19.setImageResource(R.drawable.png42);
-                                button20.setImageResource(R.drawable.png40);
-
-                                button21.setImageResource(R.drawable.png42);
-                                button22.setImageResource(R.drawable.png43);
-                                button23.setImageResource(R.drawable.png40);
-                                button24.setImageResource(R.drawable.png44);
-                                button25.setImageResource(R.drawable.png42);
-
                                 button26.setImageResource(R.drawable.png40);
                                 button27.setImageResource(R.drawable.png43);
                                 button28.setImageResource(R.drawable.png44);
@@ -1259,53 +1228,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button42.setVisibility(View.VISIBLE);
                                 button43.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng40);
-                                button62.setImageResource(R.drawable.upng41);
-                                button63.setImageResource(R.drawable.upng42);
-                                button64.setImageResource(R.drawable.upng43);
-                                button65.setImageResource(R.drawable.upng44);
-
-                                //Experiment line
-
                                 button6.setImageResource(R.drawable.png0);
                                 button7.setImageResource(R.drawable.png0);
                                 button8.setImageResource(R.drawable.png0);
                                 button9.setImageResource(R.drawable.png0);
                                 button10.setImageResource(R.drawable.png0);
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
-
 
                                 if (Activ_test) {
                                     WriteFileTest File = new WriteFileTest();
@@ -1329,43 +1256,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button42.setVisibility(View.INVISIBLE);
                                 button43.setVisibility(View.INVISIBLE);
 
-                                button1.setImageResource(R.drawable.png40);
-                                button2.setImageResource(R.drawable.png41);
-                                button3.setImageResource(R.drawable.png42);
-                                button4.setImageResource(R.drawable.png43);
-                                button5.setImageResource(R.drawable.png44);
-
-
                                 button6.setImageResource(R.drawable.png41);
                                 button7.setImageResource(R.drawable.png44);
                                 button8.setImageResource(R.drawable.png42);
                                 button9.setImageResource(R.drawable.png40);
                                 button10.setImageResource(R.drawable.png43);
-
-                                button11.setImageResource(R.drawable.png43);
-                                button12.setImageResource(R.drawable.png40);
-                                button13.setImageResource(R.drawable.png42);
-                                button14.setImageResource(R.drawable.png41);
-                                button15.setImageResource(R.drawable.png44);
-
-                                button16.setImageResource(R.drawable.png44);
-                                button17.setImageResource(R.drawable.png41);
-                                button18.setImageResource(R.drawable.png43);
-                                button19.setImageResource(R.drawable.png42);
-                                button20.setImageResource(R.drawable.png40);
-
-                                button21.setImageResource(R.drawable.png42);
-                                button22.setImageResource(R.drawable.png43);
-                                button23.setImageResource(R.drawable.png40);
-                                button24.setImageResource(R.drawable.png44);
-                                button25.setImageResource(R.drawable.png42);
-
-                                button26.setImageResource(R.drawable.png40);
-                                button27.setImageResource(R.drawable.png43);
-                                button28.setImageResource(R.drawable.png44);
-                                button29.setImageResource(R.drawable.png41);
-                                button30.setImageResource(R.drawable.png42);
-
 
                                 Sound(26);
                                 break;
@@ -1392,55 +1287,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button44.setVisibility(View.VISIBLE);
                                 button45.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng40);
-                                button62.setImageResource(R.drawable.upng41);
-                                button63.setImageResource(R.drawable.upng42);
-                                button64.setImageResource(R.drawable.upng43);
-                                button65.setImageResource(R.drawable.upng44);
-
-                                //Experiment line
-
                                 button11.setImageResource(R.drawable.png0);
                                 button12.setImageResource(R.drawable.png0);
                                 button13.setImageResource(R.drawable.png0);
                                 button14.setImageResource(R.drawable.png0);
                                 button15.setImageResource(R.drawable.png0);
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
-
 
                                 // test_line = 2;
                                 if (Activ_test) {
@@ -1464,43 +1315,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button44.setVisibility(View.INVISIBLE);
                                 button45.setVisibility(View.INVISIBLE);
 
-                                button1.setImageResource(R.drawable.png40);
-                                button2.setImageResource(R.drawable.png41);
-                                button3.setImageResource(R.drawable.png42);
-                                button4.setImageResource(R.drawable.png43);
-                                button5.setImageResource(R.drawable.png44);
-
-
-                                button6.setImageResource(R.drawable.png41);
-                                button7.setImageResource(R.drawable.png44);
-                                button8.setImageResource(R.drawable.png42);
-                                button9.setImageResource(R.drawable.png40);
-                                button10.setImageResource(R.drawable.png43);
-
                                 button11.setImageResource(R.drawable.png43);
                                 button12.setImageResource(R.drawable.png40);
                                 button13.setImageResource(R.drawable.png42);
                                 button14.setImageResource(R.drawable.png41);
                                 button15.setImageResource(R.drawable.png44);
-
-                                button16.setImageResource(R.drawable.png44);
-                                button17.setImageResource(R.drawable.png41);
-                                button18.setImageResource(R.drawable.png43);
-                                button19.setImageResource(R.drawable.png42);
-                                button20.setImageResource(R.drawable.png40);
-
-                                button21.setImageResource(R.drawable.png42);
-                                button22.setImageResource(R.drawable.png43);
-                                button23.setImageResource(R.drawable.png40);
-                                button24.setImageResource(R.drawable.png44);
-                                button25.setImageResource(R.drawable.png42);
-
-                                button26.setImageResource(R.drawable.png40);
-                                button27.setImageResource(R.drawable.png43);
-                                button28.setImageResource(R.drawable.png44);
-                                button29.setImageResource(R.drawable.png41);
-                                button30.setImageResource(R.drawable.png42);
-
 
                                 Sound(28);
                                 break;
@@ -1527,57 +1346,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button46.setVisibility(View.VISIBLE);
                                 button47.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng40);
-                                button62.setImageResource(R.drawable.upng41);
-                                button63.setImageResource(R.drawable.upng42);
-                                button64.setImageResource(R.drawable.upng43);
-                                button65.setImageResource(R.drawable.upng44);
-
-                                //Experiment line
-
                                 button16.setImageResource(R.drawable.png0);
                                 button17.setImageResource(R.drawable.png0);
                                 button18.setImageResource(R.drawable.png0);
                                 button19.setImageResource(R.drawable.png0);
                                 button20.setImageResource(R.drawable.png0);
-
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
-
-
-
 
                                 if (Activ_test) {
                                     WriteFileTest File3 = new WriteFileTest();
@@ -1600,43 +1373,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button46.setVisibility(View.INVISIBLE);
                                 button47.setVisibility(View.INVISIBLE);
 
-                                button1.setImageResource(R.drawable.png40);
-                                button2.setImageResource(R.drawable.png41);
-                                button3.setImageResource(R.drawable.png42);
-                                button4.setImageResource(R.drawable.png43);
-                                button5.setImageResource(R.drawable.png44);
-
-
-                                button6.setImageResource(R.drawable.png41);
-                                button7.setImageResource(R.drawable.png44);
-                                button8.setImageResource(R.drawable.png42);
-                                button9.setImageResource(R.drawable.png40);
-                                button10.setImageResource(R.drawable.png43);
-
-                                button11.setImageResource(R.drawable.png43);
-                                button12.setImageResource(R.drawable.png40);
-                                button13.setImageResource(R.drawable.png42);
-                                button14.setImageResource(R.drawable.png41);
-                                button15.setImageResource(R.drawable.png44);
-
                                 button16.setImageResource(R.drawable.png44);
                                 button17.setImageResource(R.drawable.png41);
                                 button18.setImageResource(R.drawable.png43);
                                 button19.setImageResource(R.drawable.png42);
                                 button20.setImageResource(R.drawable.png40);
-
-                                button21.setImageResource(R.drawable.png42);
-                                button22.setImageResource(R.drawable.png43);
-                                button23.setImageResource(R.drawable.png40);
-                                button24.setImageResource(R.drawable.png44);
-                                button25.setImageResource(R.drawable.png42);
-
-                                button26.setImageResource(R.drawable.png40);
-                                button27.setImageResource(R.drawable.png43);
-                                button28.setImageResource(R.drawable.png44);
-                                button29.setImageResource(R.drawable.png41);
-                                button30.setImageResource(R.drawable.png42);
-
 
                                 Sound(30);
                                 break;
@@ -1663,56 +1404,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button48.setVisibility(View.VISIBLE);
                                 button49.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng40);
-                                button62.setImageResource(R.drawable.upng41);
-                                button63.setImageResource(R.drawable.upng42);
-                                button64.setImageResource(R.drawable.upng43);
-                                button65.setImageResource(R.drawable.upng44);
-
-                                //Experiment line
                                 button21.setImageResource(R.drawable.png0);
                                 button22.setImageResource(R.drawable.png0);
                                 button23.setImageResource(R.drawable.png0);
                                 button24.setImageResource(R.drawable.png0);
                                 button25.setImageResource(R.drawable.png0);
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button26.setImageResource(R.drawable.unsigned);
-                                button27.setImageResource(R.drawable.unsigned);
-                                button28.setImageResource(R.drawable.unsigned);
-                                button29.setImageResource(R.drawable.unsigned);
-                                button30.setImageResource(R.drawable.unsigned);
-
-
-
-
 
                                 if (Activ_test) {
                                     WriteFileTest File4 = new WriteFileTest();
@@ -1736,43 +1432,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button48.setVisibility(View.INVISIBLE);
                                 button49.setVisibility(View.INVISIBLE);
 
-                                button1.setImageResource(R.drawable.png40);
-                                button2.setImageResource(R.drawable.png41);
-                                button3.setImageResource(R.drawable.png42);
-                                button4.setImageResource(R.drawable.png43);
-                                button5.setImageResource(R.drawable.png44);
-
-
-                                button6.setImageResource(R.drawable.png41);
-                                button7.setImageResource(R.drawable.png44);
-                                button8.setImageResource(R.drawable.png42);
-                                button9.setImageResource(R.drawable.png40);
-                                button10.setImageResource(R.drawable.png43);
-
-                                button11.setImageResource(R.drawable.png43);
-                                button12.setImageResource(R.drawable.png40);
-                                button13.setImageResource(R.drawable.png42);
-                                button14.setImageResource(R.drawable.png41);
-                                button15.setImageResource(R.drawable.png44);
-
-                                button16.setImageResource(R.drawable.png44);
-                                button17.setImageResource(R.drawable.png41);
-                                button18.setImageResource(R.drawable.png43);
-                                button19.setImageResource(R.drawable.png42);
-                                button20.setImageResource(R.drawable.png40);
-
                                 button21.setImageResource(R.drawable.png42);
                                 button22.setImageResource(R.drawable.png43);
                                 button23.setImageResource(R.drawable.png40);
                                 button24.setImageResource(R.drawable.png44);
                                 button25.setImageResource(R.drawable.png42);
-
-                                button26.setImageResource(R.drawable.png40);
-                                button27.setImageResource(R.drawable.png43);
-                                button28.setImageResource(R.drawable.png44);
-                                button29.setImageResource(R.drawable.png41);
-                                button30.setImageResource(R.drawable.png42);
-
 
                                 Sound(32);
                                 break;
@@ -1799,53 +1463,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                                 button50.setVisibility(View.VISIBLE);
                                 button51.setVisibility(View.VISIBLE);
 
-                                // Response Column
-                                button61.setImageResource(R.drawable.upng40);
-                                button62.setImageResource(R.drawable.upng41);
-                                button63.setImageResource(R.drawable.upng42);
-                                button64.setImageResource(R.drawable.upng43);
-                                button65.setImageResource(R.drawable.upng44);
-
-                                //Experiment line
                                 button26.setImageResource(R.drawable.png0);
                                 button27.setImageResource(R.drawable.png0);
                                 button28.setImageResource(R.drawable.png0);
                                 button29.setImageResource(R.drawable.png0);
                                 button30.setImageResource(R.drawable.png0);
-
-
-                                // all lines
-
-                                button1.setImageResource(R.drawable.unsigned);
-                                button2.setImageResource(R.drawable.unsigned);
-                                button3.setImageResource(R.drawable.unsigned);
-                                button4.setImageResource(R.drawable.unsigned);
-                                button5.setImageResource(R.drawable.unsigned);
-
-                                button6.setImageResource(R.drawable.unsigned);
-                                button7.setImageResource(R.drawable.unsigned);
-                                button8.setImageResource(R.drawable.unsigned);
-                                button9.setImageResource(R.drawable.unsigned);
-                                button10.setImageResource(R.drawable.unsigned);
-
-                                button11.setImageResource(R.drawable.unsigned);
-                                button12.setImageResource(R.drawable.unsigned);
-                                button13.setImageResource(R.drawable.unsigned);
-                                button14.setImageResource(R.drawable.unsigned);
-                                button15.setImageResource(R.drawable.unsigned);
-
-                                button16.setImageResource(R.drawable.unsigned);
-                                button17.setImageResource(R.drawable.unsigned);
-                                button18.setImageResource(R.drawable.unsigned);
-                                button19.setImageResource(R.drawable.unsigned);
-                                button20.setImageResource(R.drawable.unsigned);
-
-                                button21.setImageResource(R.drawable.unsigned);
-                                button22.setImageResource(R.drawable.unsigned);
-                                button23.setImageResource(R.drawable.unsigned);
-                                button24.setImageResource(R.drawable.unsigned);
-                                button25.setImageResource(R.drawable.unsigned);
-
 
                                 if (Activ_test) {
                                     WriteFileTest File5 = new WriteFileTest();
@@ -1872,7 +1494,6 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if ( Double_Click('A'))
                                 {
-                                    button61.setImageResource(R.drawable.png40);
                                     button61.setEnabled(false);
                                 }
                                 Symbol_elec = 'A';
@@ -1908,8 +1529,6 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if (Double_Click('E'))
                                 {
-
-                                    button62.setImageResource(R.drawable.png41);
                                     button62.setEnabled(false);
                                 }
                                 Symbol_elec = 'E';
@@ -1941,7 +1560,6 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if (Double_Click('I'))
                                 {
-                                    button63.setImageResource(R.drawable.png42);
                                     button63.setEnabled(false);
                                 }
                                 Symbol_elec = 'I';
@@ -1971,8 +1589,6 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if ( Double_Click('O'))
                                 {
-
-                                    button64.setImageResource(R.drawable.png43);
                                     button64.setEnabled(false);
                                 }
                                 Symbol_elec = 'O';
@@ -2002,8 +1618,6 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             if (secondLeft>0) {
                                 if (Double_Click('U'))
                                 {
-
-                                    button65.setImageResource(R.drawable.png44);
                                     button65.setEnabled(false);
                                 }
                                 Symbol_elec = 'U';
