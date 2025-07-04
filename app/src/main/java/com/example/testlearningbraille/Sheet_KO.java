@@ -1269,11 +1269,11 @@ public class Sheet_KO extends AppCompatActivity {
                                 button65.setImageResource(R.drawable.upng16);
 
                                 //Experiment line
-                                button6.setImageResource(R.drawable.png0);
-                                button7.setImageResource(R.drawable.png0);
-                                button8.setImageResource(R.drawable.png0);
-                                button9.setImageResource(R.drawable.png0);
-                                button10.setImageResource(R.drawable.png0);
+                                button6.setImageResource(R.drawable.png100);
+                                button7.setImageResource(R.drawable.png100);
+                                button8.setImageResource(R.drawable.png100);
+                                button9.setImageResource(R.drawable.png100);
+                                button10.setImageResource(R.drawable.png100);
 
                                 // all lines
 
@@ -1396,11 +1396,11 @@ public class Sheet_KO extends AppCompatActivity {
                                 button65.setImageResource(R.drawable.upng16);
 
                                 //Experiment line
-                                button11.setImageResource(R.drawable.png0);
-                                button12.setImageResource(R.drawable.png0);
-                                button13.setImageResource(R.drawable.png0);
-                                button14.setImageResource(R.drawable.png0);
-                                button15.setImageResource(R.drawable.png0);
+                                button11.setImageResource(R.drawable.png100);
+                                button12.setImageResource(R.drawable.png100);
+                                button13.setImageResource(R.drawable.png100);
+                                button14.setImageResource(R.drawable.png100);
+                                button15.setImageResource(R.drawable.png100);
 
 
                                 // all lines
@@ -1526,11 +1526,11 @@ public class Sheet_KO extends AppCompatActivity {
                                 button65.setImageResource(R.drawable.upng16);
 
                                 //Experiment line
-                                button16.setImageResource(R.drawable.png0);
-                                button17.setImageResource(R.drawable.png0);
-                                button18.setImageResource(R.drawable.png0);
-                                button19.setImageResource(R.drawable.png0);
-                                button20.setImageResource(R.drawable.png0);
+                                button16.setImageResource(R.drawable.png100);
+                                button17.setImageResource(R.drawable.png100);
+                                button18.setImageResource(R.drawable.png100);
+                                button19.setImageResource(R.drawable.png100);
+                                button20.setImageResource(R.drawable.png100);
 
 
 
@@ -1658,11 +1658,11 @@ public class Sheet_KO extends AppCompatActivity {
                                 button65.setImageResource(R.drawable.upng16);
 
                                 //Experiment line
-                                button21.setImageResource(R.drawable.png0);
-                                button22.setImageResource(R.drawable.png0);
-                                button23.setImageResource(R.drawable.png0);
-                                button24.setImageResource(R.drawable.png0);
-                                button25.setImageResource(R.drawable.png0);
+                                button21.setImageResource(R.drawable.png100);
+                                button22.setImageResource(R.drawable.png100);
+                                button23.setImageResource(R.drawable.png100);
+                                button24.setImageResource(R.drawable.png100);
+                                button25.setImageResource(R.drawable.png100);
 
 
                                 // all lines
@@ -1786,11 +1786,11 @@ public class Sheet_KO extends AppCompatActivity {
                                 button65.setImageResource(R.drawable.upng16);
 
                                 //Experiment line
-                                button26.setImageResource(R.drawable.png0);
-                                button27.setImageResource(R.drawable.png0);
-                                button28.setImageResource(R.drawable.png0);
-                                button29.setImageResource(R.drawable.png0);
-                                button30.setImageResource(R.drawable.png0);
+                                button26.setImageResource(R.drawable.png100);
+                                button27.setImageResource(R.drawable.png100);
+                                button28.setImageResource(R.drawable.png100);
+                                button29.setImageResource(R.drawable.png100);
+                                button30.setImageResource(R.drawable.png100);
 
 
 

@@ -1211,11 +1211,11 @@ public class Sheet_AE extends AppCompatActivity {
                                 button43.setVisibility(View.VISIBLE);
 
                                 //Experiment line
-                                button6.setImageResource(R.drawable.png0);
-                                button7.setImageResource(R.drawable.png0);
-                                button8.setImageResource(R.drawable.png0);
-                                button9.setImageResource(R.drawable.png0);
-                                button10.setImageResource(R.drawable.png0);
+                                button6.setImageResource(R.drawable.png100);
+                                button7.setImageResource(R.drawable.png100);
+                                button8.setImageResource(R.drawable.png100);
+                                button9.setImageResource(R.drawable.png100);
+                                button10.setImageResource(R.drawable.png100);
 
                                 // all lines
 
@@ -1353,11 +1353,11 @@ public class Sheet_AE extends AppCompatActivity {
                                 button45.setVisibility(View.VISIBLE);
 
                                 //Experiment line
-                                button11.setImageResource(R.drawable.png0);
-                                button12.setImageResource(R.drawable.png0);
-                                button13.setImageResource(R.drawable.png0);
-                                button14.setImageResource(R.drawable.png0);
-                                button15.setImageResource(R.drawable.png0);
+                                button11.setImageResource(R.drawable.png100);
+                                button12.setImageResource(R.drawable.png100);
+                                button13.setImageResource(R.drawable.png100);
+                                button14.setImageResource(R.drawable.png100);
+                                button15.setImageResource(R.drawable.png100);
 
 
                                 //All lines
@@ -1498,11 +1498,11 @@ public class Sheet_AE extends AppCompatActivity {
                                 button47.setVisibility(View.VISIBLE);
 
                                 // Experiment line
-                                button16.setImageResource(R.drawable.png0);
-                                button17.setImageResource(R.drawable.png0);
-                                button18.setImageResource(R.drawable.png0);
-                                button19.setImageResource(R.drawable.png0);
-                                button20.setImageResource(R.drawable.png0);
+                                button16.setImageResource(R.drawable.png100);
+                                button17.setImageResource(R.drawable.png100);
+                                button18.setImageResource(R.drawable.png100);
+                                button19.setImageResource(R.drawable.png100);
+                                button20.setImageResource(R.drawable.png100);
 
                                 // All lines
                                 button1.setImageResource(R.drawable.unsigned);
@@ -1629,11 +1629,11 @@ public class Sheet_AE extends AppCompatActivity {
                                 button49.setVisibility(View.VISIBLE);
 
                                 // Test line
-                                button21.setImageResource(R.drawable.png0);
-                                button22.setImageResource(R.drawable.png0);
-                                button23.setImageResource(R.drawable.png0);
-                                button24.setImageResource(R.drawable.png0);
-                                button25.setImageResource(R.drawable.png0);
+                                button21.setImageResource(R.drawable.png100);
+                                button22.setImageResource(R.drawable.png100);
+                                button23.setImageResource(R.drawable.png100);
+                                button24.setImageResource(R.drawable.png100);
+                                button25.setImageResource(R.drawable.png100);
 
                                 //All lines
                                 button1.setImageResource(R.drawable.unsigned);
@@ -1660,11 +1660,7 @@ public class Sheet_AE extends AppCompatActivity {
                                 button19.setImageResource(R.drawable.unsigned);
                                 button20.setImageResource(R.drawable.unsigned);
 
-                                button21.setImageResource(R.drawable.png0);
-                                button22.setImageResource(R.drawable.png0);
-                                button23.setImageResource(R.drawable.png0);
-                                button24.setImageResource(R.drawable.png0);
-                                button25.setImageResource(R.drawable.png0);
+
 
                                 button26.setImageResource(R.drawable.unsigned);
                                 button27.setImageResource(R.drawable.unsigned);
@@ -1768,11 +1764,11 @@ public class Sheet_AE extends AppCompatActivity {
                                 button51.setVisibility(View.VISIBLE);
 
                                 //Test Line
-                                button26.setImageResource(R.drawable.png0);
-                                button27.setImageResource(R.drawable.png0);
-                                button28.setImageResource(R.drawable.png0);
-                                button29.setImageResource(R.drawable.png0);
-                                button30.setImageResource(R.drawable.png0);
+                                button26.setImageResource(R.drawable.png100);
+                                button27.setImageResource(R.drawable.png100);
+                                button28.setImageResource(R.drawable.png100);
+                                button29.setImageResource(R.drawable.png100);
+                                button30.setImageResource(R.drawable.png100);
 
                                 // All Lines
                                 button1.setImageResource(R.drawable.unsigned);
