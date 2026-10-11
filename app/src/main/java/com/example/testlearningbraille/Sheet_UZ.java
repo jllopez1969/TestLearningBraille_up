@@ -380,6 +380,11 @@ public class Sheet_UZ extends AppCompatActivity {
                 mp.start();
                 break;
 
+            case 50:
+                mp = MediaPlayer.create(this, R.raw.symbol_touch);
+                mp.start();
+                break;
+
         }
 
 
@@ -2375,6 +2380,10 @@ public class Sheet_UZ extends AppCompatActivity {
                     Symbol_U = true;
                     Symbol = 'U';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }
@@ -2390,6 +2399,10 @@ public class Sheet_UZ extends AppCompatActivity {
                     Symbol_X= true;
                     Symbol = 'X';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2403,6 +2416,10 @@ public class Sheet_UZ extends AppCompatActivity {
                     Symbol_Y= true;
                     Symbol = 'Y';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2418,6 +2435,10 @@ public class Sheet_UZ extends AppCompatActivity {
                     Symbol_Z= true;
                     Symbol = 'Z';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2431,6 +2452,10 @@ public class Sheet_UZ extends AppCompatActivity {
                     Symbol_V= true;
                     Symbol = 'V';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2450,6 +2475,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_U= true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2465,6 +2494,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_V= true;
                             Symbol= 'V';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2478,6 +2511,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_Z= true;
                             Symbol = 'Z';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2492,6 +2529,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_X= true;
                             Symbol= 'X';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
 
                         return false;
@@ -2507,6 +2548,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_Y= true;
                             Symbol = 'Y';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2525,6 +2570,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_U= true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2539,6 +2588,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_Z= true;
                             Symbol = 'Z';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2553,6 +2606,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_V= true;
                             Symbol = 'V';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2565,21 +2622,13 @@ public class Sheet_UZ extends AppCompatActivity {
                     public boolean onLongClick(View v) {
                         if ((Status_test == 5) & (secondLeft>0)) {
                             Tacton_trip = false;
-                            Symbol_Y= true;/*
-                            switch (selected_test)
-                            {
-                                case 0:
-                                    break;
-                                case 1:
-                                    Notification("Y", "Tema: El Bueno, El Malo y el Feo", R.mipmap.png3, Pattern.pattern("Y"));
-                                    break;
-                                case 2:
-                                    Notification("Y", "1-3-4-5-6", R.mipmap.png3, Pattern.pattern_number("Y"));
-                                    break;
-
-                            }*/
+                            Symbol_Y= true;
                             Symbol = 'Y';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2594,6 +2643,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_X= true;
                             Symbol = 'X';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2612,6 +2665,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_U= true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2626,6 +2683,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_Y= true;
                             Symbol = 'Y';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2640,6 +2701,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_X= true;
                             Symbol = 'X';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2653,6 +2718,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_V= true;
                             Symbol = 'V';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2670,6 +2739,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_Z= true;
                             Symbol = 'Z';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2689,6 +2762,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_U= true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2703,6 +2780,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_V= true;
                             Symbol = 'V';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2717,6 +2798,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_X= true;
                             Symbol = 'X';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2731,6 +2816,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_Y= true;
                             Symbol = 'Y';
                             flag_sel = true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2746,6 +2835,10 @@ public class Sheet_UZ extends AppCompatActivity {
                             Symbol_Z= true;
                             Symbol = 'Z';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});

@@ -382,6 +382,11 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                 mp.start();
                 break;
 
+            case 50:
+                mp = MediaPlayer.create(this, R.raw.symbol_touch);
+                mp.start();
+                break;
+
         }
 
 
@@ -2369,6 +2374,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ee = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2384,6 +2393,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_uu = true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2397,6 +2410,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ii = true;
                             Symbol = 'I';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2412,6 +2429,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                            Symbol_aa = true;
                             Symbol = 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2427,6 +2448,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_oo = true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2447,6 +2472,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_oo = true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2463,6 +2492,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                           Symbol_aa = true;
                             Symbol= 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2476,6 +2509,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                            Symbol_ii = true;
                             Symbol = 'I';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2490,6 +2527,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ee = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
 
                         return false;
@@ -2505,6 +2546,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_uu = true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2524,6 +2569,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_uu = true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2538,6 +2587,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ee = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2552,6 +2605,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_oo = true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2567,6 +2624,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ii = true;
                             Symbol = 'I';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2581,6 +2642,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_aa = true;
                             Symbol= 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2600,6 +2665,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ii = true;
                             Symbol = 'I';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2614,6 +2683,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_oo = true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2628,6 +2701,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                            Symbol_aa = true;
                             Symbol= 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2643,6 +2720,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_uu = true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2660,6 +2741,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ee = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2678,6 +2763,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_aa = true;
                             Symbol= 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2692,6 +2781,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_oo = true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2706,6 +2799,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_uu = true;
                             Symbol = 'U';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2720,6 +2817,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                             Symbol_ee = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2735,6 +2836,10 @@ public class Sheet_stressed_vowel extends AppCompatActivity {
                            Symbol_ii = true;
                             Symbol = 'I';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});

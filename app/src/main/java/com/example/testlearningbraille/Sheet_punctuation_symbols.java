@@ -378,6 +378,11 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                 mp.start();
                 break;
 
+            case 50:
+                mp = MediaPlayer.create(this, R.raw.symbol_touch);
+                mp.start();
+                break;
+
         }
 
 
@@ -2393,6 +2398,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_cc = true;
                             Symbol = '.';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2408,6 +2417,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_W = true;
                             Symbol = 'W';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2421,6 +2434,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_NN = true;
                             Symbol = 'Ñ';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2432,9 +2449,14 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                 new View.OnLongClickListener() {
                     public boolean onLongClick(View v) {
                         if ((Status_test == 1)& (secondLeft>0)) {
+                            Tacton_trip = true;
                             Symbol_UU = true;
                             Symbol = 'Ü';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2446,9 +2468,14 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                 new View.OnLongClickListener() {
                     public boolean onLongClick(View v) {
                         if ((Status_test == 1)&& (secondLeft>0)) {
+                            Tacton_trip = true;
                             Symbol_pp = true;
                             Symbol = ',';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2469,6 +2496,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_W = true;
                             Symbol = 'W';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2485,6 +2516,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_pp = true;
                             Symbol = '.';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2498,6 +2533,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_cc = true;
                             Symbol = ',';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
 
                         return false;
@@ -2513,6 +2552,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_NN = true;
                             Symbol = 'Ñ';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
 
                         return false;
@@ -2528,6 +2571,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_UU = true;
                             Symbol = 'Ü';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2547,6 +2594,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_NN = true;
                             Symbol = 'Ñ';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2561,6 +2612,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_UU = true;
                             Symbol = 'Ü';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2575,6 +2630,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_W = true;
                             Symbol = 'W';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2590,6 +2649,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_pp = true;
                             Symbol = '.';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2604,6 +2667,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_pp = true;
                             Symbol = ',';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2623,6 +2690,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_W = true;
                             Symbol = 'W';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2637,6 +2708,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_pp = true;
                             Symbol = ',';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
 
                         return false;
@@ -2652,6 +2727,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_UU = true;
                             Symbol = 'Ü';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2667,6 +2746,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_pp = true;
                             Symbol = '.';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2684,6 +2767,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_NN = true;
                             Symbol = 'Ñ';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2702,6 +2789,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_pp = true;
                             Symbol = '.';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2716,6 +2807,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_NN = true;
                             Symbol = 'Ñ';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2730,6 +2825,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_UU = true;
                             Symbol = 'Ü';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2744,6 +2843,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_cc = true;
                             Symbol = ',';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
 
                         }
                         return false;
@@ -2760,6 +2863,10 @@ public class Sheet_punctuation_symbols extends AppCompatActivity {
                             Symbol_W = true;
                             Symbol = 'W';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});

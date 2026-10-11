@@ -373,6 +373,11 @@ public class Sheet_KO extends AppCompatActivity {
                 mp.start();
                 break;
 
+            case 50:
+                mp = MediaPlayer.create(this, R.raw.symbol_touch);
+                mp.start();
+                break;
+
 
 
         }
@@ -2311,6 +2316,10 @@ public class Sheet_KO extends AppCompatActivity {
                     Symbol_K = true;
                     Symbol = 'K';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }
@@ -2326,6 +2335,10 @@ public class Sheet_KO extends AppCompatActivity {
                     Symbol_M = true;
                     Symbol = 'M';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2339,6 +2352,10 @@ public class Sheet_KO extends AppCompatActivity {
                     Symbol_O = true;
                     Symbol = 'O';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2352,6 +2369,10 @@ public class Sheet_KO extends AppCompatActivity {
                     Symbol_L = true;
                     Symbol = 'L';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2365,6 +2386,10 @@ public class Sheet_KO extends AppCompatActivity {
                     Symbol_N = true;
                     Symbol = 'N';
                     flag_sel= true;
+                    if (mp != null && !mp.isPlaying())
+                    {
+                        Sound(50);
+                    }
                 }
                 return false;
             }});
@@ -2384,6 +2409,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_M = true;
                             Symbol = 'M';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2399,6 +2428,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_K = true;
                             Symbol= 'K';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2412,6 +2445,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_N = true;
                             Symbol = 'N';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2426,6 +2463,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_O = true;
                             Symbol= 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
 
                         return false;
@@ -2441,6 +2482,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_L = true;
                             Symbol = 'L';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2459,6 +2504,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_O = true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2473,6 +2522,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_L = true;
                             Symbol = 'L';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2487,6 +2540,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_M = true;
                             Symbol = 'M';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2502,6 +2559,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_N = true;
                             Symbol = 'N';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2516,6 +2577,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_K = true;
                             Symbol = 'K';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2535,6 +2600,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_M = true;
                             Symbol = 'M';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2549,6 +2618,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_K = true;
                             Symbol = 'K';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2563,6 +2636,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_N = true;
                             Symbol = 'N';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2576,6 +2653,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_L = true;
                             Symbol = 'L';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2593,6 +2674,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_O= true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2612,6 +2697,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_L = true;
                             Symbol = 'L';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2626,6 +2715,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_O = true;
                             Symbol = 'O';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2640,6 +2733,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_K = true;
                             Symbol = 'K';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2654,6 +2751,10 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_N = true;
                             Symbol = 'N';
                             flag_sel = true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2669,6 +2770,11 @@ public class Sheet_KO extends AppCompatActivity {
                             Symbol_M = true;
                             Symbol = 'M';
                             flag_sel= true;
+
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
