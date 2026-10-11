@@ -310,6 +310,12 @@ public class Sheet_AE extends AppCompatActivity {
                 mp = MediaPlayer.create(this, R.raw.numbers_e);
                 mp.start();
                 break;
+
+            case 50:
+
+                mp = MediaPlayer.create(this, R.raw.symbol_touch);
+                mp.start();
+                break;
         }
     }
 
@@ -2323,6 +2329,11 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_B = true;
                             Symbol = 'B';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
+
                         }
                         return false;
                     }});
@@ -2338,6 +2349,11 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_C = true;
                             Symbol = 'C';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
+
                         }
                         return false;
                     }});
@@ -2351,6 +2367,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_E = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2366,6 +2386,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_A = true;
                             Symbol = 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2381,6 +2405,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_D = true;
                             Symbol = 'D';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2401,6 +2429,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_D = true;
                             Symbol = 'D';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2417,6 +2449,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_A= true;
                             Symbol= 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2430,6 +2466,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_C = true;
                             Symbol = 'C';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2444,6 +2484,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_B = true;
                             Symbol= 'B';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
 
                         return false;
@@ -2459,6 +2503,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_E = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2478,6 +2526,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_C = true;
                             Symbol = 'C';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2492,6 +2544,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_D = true;
                             Symbol = 'D';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2506,6 +2562,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_A = true;
                             Symbol = 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2521,6 +2581,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_E = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2535,6 +2599,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_B = true;
                             Symbol = 'B';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2554,6 +2622,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_C = true;
                             Symbol = 'C';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2568,6 +2640,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_A = true;
                             Symbol = 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2582,6 +2658,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_E = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2597,6 +2677,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_B = true;
                             Symbol = 'B';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2611,6 +2695,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_D = true;
                             Symbol = 'D';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2629,6 +2717,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_A = true;
                             Symbol = 'A';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2643,6 +2735,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_B = true;
                             Symbol = 'B';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2657,6 +2753,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_E = true;
                             Symbol = 'E';
                             flag_sel= true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
@@ -2671,6 +2771,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_D = true;
                             Symbol = 'D';
                             flag_sel = true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
 
@@ -2686,6 +2790,10 @@ public class Sheet_AE extends AppCompatActivity {
                             Symbol_C = true;
                             Symbol = 'C';
                             flag_sel = true;
+                            if (mp != null && !mp.isPlaying())
+                            {
+                                Sound(50);
+                            }
                         }
                         return false;
                     }});
